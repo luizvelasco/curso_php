@@ -35,6 +35,11 @@
             <?php endforeach; ?>
         </ul>
         <h3 id="categories-title">Categorias</h3>
+        <ul id="categories-list">
+            <?php foreach($categories as $category): ?>
+                <li><a href="#"><?= $category ?></a></li>
+            <?php endforeach; ?>
+        </ul>
     </aside>
 
 <?php
